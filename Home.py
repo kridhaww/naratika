@@ -27,11 +27,11 @@ with tab2:
    st.header("Introducing")
    col1, col2, col3= st.columns(3)
    col4, col5= st.columns(2)
-   imagem = Image.open("C:/Users/Kridha/Downloads/naratika/mikeok.jpg")
-   imagej = Image.open("C:/Users/Kridha/Downloads/naratika/ijah.jpeg")
-   imagef = Image.open("C:/Users/Kridha/Downloads/naratika/farid.jpeg")
-   imagek = Image.open("C:/Users/Kridha/Downloads/naratika/kridhaw.png")
-   images = Image.open("C:/Users/Kridha/Downloads/naratika/sean.jpeg")
+   imagem = Image.open("mikeok.jpg")
+   imagej = Image.open("ijah.jpeg")
+   imagef = Image.open("farid.jpeg")
+   imagek = Image.open("kridhaw.png")
+   images = Image.open("sean.jpeg")
 
 with col1:
    st.image(imagem,width=180)

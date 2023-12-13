@@ -31,7 +31,7 @@ st.write("""
 st.set_option('deprecation.showfileUploaderEncoding', False)
 @st.cache_data
 def load_model():
-    model=tf.keras.models.load_model("C:/Users/Kridha/Downloads/naratika/batikclassifier3.h5")
+    model=tf.keras.models.load_model("batikclassifier3.h5")
     return model
 with st.spinner('Model is being loaded..'):
     model=load_model()

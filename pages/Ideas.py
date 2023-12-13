@@ -15,7 +15,7 @@ with tab2:
 
 with tab3:
     st.header("About the Data")
-    imagem = Image.open("C:/Users/Kridha/Downloads/naratika/merge.png")
+    imagem = Image.open("merge.png")
     st.image(imagem,width=500)
     st.write("Data yang digunakan dalam penelitian ini adalah jenis data tidak terstruktur, yaitu data gambar. Dimana data tidak terstruktur merupakan jenis data yang tidak memiliki format atau struktur tertentu yang dapat diorganisir dengan mudah. Data gambar yang digunakan adalah data gambar batik untuk setiap daerah di pulau Jawa yaitu DK Jakarta, Jawa Barat, DI Yogyakarta, Jawa Tengah, dan Jawa Timur. Data tersebut diperoleh dari Google Images dengan memanfaatkan Google Extension yang bernama Download All Images. Dari daerah tersebut diambil satu jenis motif batik yang menjadi khas, kemudian setiap kategori tersebut diambil 500 gambar.")
     
